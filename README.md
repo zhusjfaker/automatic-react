@@ -3,10 +3,11 @@
 # 重要装饰器
 * ProxyComponent -> 拦截当前React组件 构造函数AOP增加对应响应过程
 
-* ProxyState -> 1. 修饰的普通类成员 自动转变为 React组件上state的对象，
-              2. 且修改 类成员 则触发state渲染
-              3. 传递响应对象则子组件修改属性也同时触发父组件代理的渲染
-              4. 需要关闭则可以在内置渲染器中 isProxy参数 设置为 false
+* ProxyState -> 
+1. 修饰的普通类成员 自动转变为 React组件上state的对象，
+2. 且修改 类成员 则触发state渲染
+3. 传递响应对象则子组件修改属性也同时触发父组件代理的渲染
+4. 需要关闭则可以在内置渲染器中 isProxy参数 设置为 false
 
 # 使用示例
 ```typescript
