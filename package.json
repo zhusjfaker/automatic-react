@@ -1,6 +1,7 @@
 {
-  "name": "@ali/typescript-component-frame",
+  "name": "react-reactive-proxy-state",
   "version": "0.0.1",
+  "private": true,
   "description": "",
   "main": "lib/static/js/Component.js",
   "types": "lib/types/component/index",
