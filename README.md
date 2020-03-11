@@ -1,6 +1,13 @@
 # React-Reactive-Proxy-State
 
-# 重要装饰器
+## 简介
+<pre>
+以下2种装饰器，是想抹平在react中修改复杂数据类型必须手动调用setState函数去触发渲染的目的.可以在你的ReactComponentClass中，不用在去任何书写setState有关的
+函数代码段,比如数组长度大小变化，数组上元素的变化，对象成员上的变化都可以触发渲染。同样所有class上的 "@ProxyState” 修饰的成员都会自动转为组件的state。实现代码
+参考vue 2.0 3.0 和 react-mobx 中间件。
+</pre>
+
+## 重要装饰器
 * ProxyComponent -> 拦截当前React组件 构造函数AOP增加对应响应过程
 
 * ProxyState -> 
@@ -12,7 +19,7 @@
 6. 跨组件修改Props目前只支持修改Props引用对象上值得修改来触发渲染 （新增）
 7. 跨组件修改Props上修改 “引用对象”的地址 和 “原始类型” 的数值 都需要传入对应的change方法。 （新增）
 
-# 使用示例
+## 使用示例
 ```typescript
 
 import * as React from 'react';
