@@ -12,7 +12,9 @@ Development mode similar to Vue | Vue composition | vuex
 
 ## Export Member（导出成员）
 
-- automatic-react -> 将react setState 作为render的操作移除，转而直接修改 proxystate上的属性直接触发渲染。
+- automatic-react -> 
+Remove react setstate as the render operation, and directly modify the properties on proxystate to trigger rendering directly
+(将react setState 作为render的操作移除，转而直接修改 proxystate上的属性直接触发渲染。)
 
 - [decorator @ProxyState && @ProxyComponent](https://github.com/zhusjfaker/React-Reactive-Proxy-State/wiki/ProxyState-&&-ProxyComponent)
 - [function rxhook](https://github.com/zhusjfaker/automatic-react/wiki/function-rxhook) 
