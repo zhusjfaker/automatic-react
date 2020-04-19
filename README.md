@@ -17,6 +17,7 @@ Development mode similar to Vue | Vue composition | vuex
 - [decorator @ProxyState && @ProxyComponent](https://github.com/zhusjfaker/React-Reactive-Proxy-State/wiki/ProxyState-&&-ProxyComponent)
 - [function rxhook](https://github.com/zhusjfaker/automatic-react/wiki/function-rxhook) 
 - [HocClassComponent ContextProvider && Decorator consumer && type UnPackReactContext](https://github.com/zhusjfaker/automatic-react/wiki/HocClassComponent-ContextProvider-&&-Decorator-consumer-&&-type-UnPackReactContext) 
+- [HocClassComponent ReactiveProvider](https://github.com/zhusjfaker/automatic-react/wiki/HocClassComponent-ReactiveProvider)
 
 ## Counter example
 
