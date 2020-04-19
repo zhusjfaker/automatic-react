@@ -13,6 +13,7 @@ After react 16.1 +, you can use context.consumer to inject data or methods on yo
 </p>
 
 ## Counter example
+
 ```typescript
 import React, { useState } from "react";
 import { ContextProvider, consumer, UnPackReactContext } from "automatic-react";
@@ -31,7 +32,10 @@ export const Demo: React.FC = () => {
           setCount(count + 1);
         },
       }}
-    ></ContextProvider>
+    >
+      <ContextCounter />
+      <ContextCounterFC />
+    </ContextProvider>
   );
 };
 
@@ -71,7 +75,6 @@ export const ContextCounterFC: React.FC<UnPackReactContext<
     </div>
   );
 });
-
 ```
 
 ## 简介
@@ -94,6 +97,7 @@ export const ContextCounterFC: React.FC<UnPackReactContext<
 </p>
 
 ## 计数器示例
+
 ```typescript
 import React, { useState } from "react";
 import { ContextProvider, consumer, UnPackReactContext } from "automatic-react";
@@ -112,7 +116,10 @@ export const Demo: React.FC = () => {
           setCount(count + 1);
         },
       }}
-    ></ContextProvider>
+    >
+      <ContextCounter />
+      <ContextCounterFC />
+    </ContextProvider>
   );
 };
 

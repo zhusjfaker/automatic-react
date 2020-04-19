@@ -1,7 +1,6 @@
 import * as React from 'react';
 import './index.module.scss';
 import { ProxyState, ProxyComponent } from '../util/proxy';
-import { TestHooks } from '../depend-component/TestHooks';
 
 interface ITestProps { }
 
@@ -114,7 +113,6 @@ export class ChildTest extends React.Component<any, any>{
         <pre>
           {text}
         </pre>
-        <TestHooks />
       </div>
     );
   }

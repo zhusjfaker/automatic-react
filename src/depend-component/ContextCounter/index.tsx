@@ -15,7 +15,10 @@ export const Demo: React.FC = () => {
           setCount(count + 1);
         },
       }}
-    ></ContextProvider>
+    >
+      <ContextCounter />
+      <ContextCounterFC />
+    </ContextProvider>
   );
 };
 
