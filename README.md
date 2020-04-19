@@ -14,8 +14,9 @@ Development mode similar to Vue | Vue composition | vuex
 
 - automatic-react -> 将react setState 作为render的操作移除，转而直接修改 proxystate上的属性直接触发渲染。
 
-- decorator [@ProxyState && @ProxyComponent](https://github.com/zhusjfaker/React-Reactive-Proxy-State/wiki/ProxyState-&&-ProxyComponent)
-- function [rxhook](https://github.com/zhusjfaker/automatic-react/wiki/function-rxhook)  
+- [decorator @ProxyState && @ProxyComponent](https://github.com/zhusjfaker/React-Reactive-Proxy-State/wiki/ProxyState-&&-ProxyComponent)
+- [function rxhook](https://github.com/zhusjfaker/automatic-react/wiki/function-rxhook) 
+- [HocClassComponent ContextProvider && Decorator consumer && type UnPackReactContext](https://github.com/zhusjfaker/automatic-react/wiki/HocClassComponent-ContextProvider-&&-Decorator-consumer-&&-type-UnPackReactContext) 
 
 ## Counter example
 
@@ -88,5 +89,20 @@ export class ProxyCounter extends React.Component<
   }
 }
 ```
+
+## ContactInformation
+* Email 439453290@qq.com
+* Email zhushijie.jayson@bytedance.com
+
+## WorkTogether
+<p>
+The development of the project is relatively fast, and there may be many areas to be refined. If you like Vue, but at the same time you have to write react. If you like this' lightweight 'solution, you can contact me to improve' automatic react '. Contact address please see the email address in "contact information" above
+</p>
+<p>
+项目开发的比较快，可能还有很多的地方需要细化。如果喜欢Vue，但同时又必须要写React的小伙伴，喜欢这个比较‘轻量级’的解决方案，可以联系我，共同把 ‘automatic-react’ 进行完善。联系地址请看上方的‘联系方式’中的邮箱地址
+</p>
+
+
+
 
 
