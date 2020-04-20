@@ -1,7 +1,6 @@
 /* eslint-disable react/display-name */
 import React from 'react';
 import { ProxyComponent, ProxyState } from './proxy';
-import { proxyjsonobj } from './jsontostring';
 
 type Props<T = any> = {
   context: React.Context<T>;
@@ -29,20 +28,8 @@ export class ReactiveProvider<T> extends React.Component<Props<T>, any> {
   @ProxyState()
   public store = Object.assign({}, this.props.initialidata);
 
-  public comparedata = proxyjsonobj(Object.assign({}, this.props.initialidata));
-
   constructor(props: Props) {
     super(props);
-  }
-
-  shouldComponentUpdate(nextProps: Props<T>, _nextState: any) {
-    const nowdata = proxyjsonobj(Object.assign({}, nextProps.initialidata));
-    if (this.comparedata !== nowdata) {
-      this.comparedata = nowdata;
-      return true;
-    } else {
-      return false;
-    }
   }
 
   render(): JSX.Element {

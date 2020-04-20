@@ -9,9 +9,7 @@ export declare class ContextProvider<T> extends React.Component<Props<T>, any> {
 }
 export declare class ReactiveProvider<T> extends React.Component<Props<T>, any> {
     store: {} & T;
-    comparedata: string;
     constructor(props: Props);
-    shouldComponentUpdate(nextProps: Props<T>, _nextState: any): boolean;
     render(): JSX.Element;
 }
 export declare function consumer<T = any>(provider: React.Context<T>): <U extends object>(target: U) => U;
