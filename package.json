@@ -1,6 +1,6 @@
 {
   "name": "automatic-react",
-  "version": "0.0.14",
+  "version": "0.0.16",
   "description": "make your react app into reactive mode",
   "main": "lib/index.js",
   "types": "lib/types/util/index",

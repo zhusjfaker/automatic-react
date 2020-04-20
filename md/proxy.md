@@ -40,6 +40,7 @@ export class ProxyCounter extends React.Component<
     super(props);
   }
 
+ @ProxyState()
   proxystate: IProxyState = {
     count: 0,
   };
@@ -119,6 +120,7 @@ export class ProxyCounter extends React.Component<
     super(props);
   }
 
+  @ProxyState()
   proxystate: IProxyState = {
     count: 0,
   };

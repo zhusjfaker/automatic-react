@@ -1,5 +1,5 @@
 import React from "react";
-import { ProxyComponent } from "../../util/index";
+import { ProxyComponent, ProxyState } from "../../util/index";
 
 type IProxyState = {
   count: number;
@@ -14,6 +14,7 @@ export class ProxyCounter extends React.Component<
     super(props);
   }
 
+  @ProxyState()
   proxystate: IProxyState = {
     count: 0,
   };
