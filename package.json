@@ -34,7 +34,7 @@
   "devDependencies": {
     "lodash": "^4.17.11",
     "react-app-polyfill": "^1.0.1",
-    "react-dev-utils": "^9.0.1",
+    "react-dev-utils": "^11.0.4",
     "resolve": "1.10.0",
     "react-router-dom": "^5.0.0",
     "@babel/core": "7.4.3",
